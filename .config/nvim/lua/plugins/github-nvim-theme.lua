@@ -5,6 +5,6 @@ return {
     priority = 1000, -- make sure to load this before all other start plugins
     config = function()
         require("github-theme").setup({})
-        vim.cmp('colorscheme github_dark_high_contrast')
+        vim.cmp('colorscheme catppuccin-mocha')
     end
   }
